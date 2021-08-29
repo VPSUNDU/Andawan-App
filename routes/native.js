@@ -3,9 +3,10 @@ var router = express.Router();
 const db = require("../model/helper");
 
 
-// router.get("/", (req, res) => {
-//   res.send("Welcome to the Andawan page");
-// });
+router.get("/", (req, res) => {
+  res.send("Welcome to the Andawan page");
+});
+
 // GET native list
 router.get("/natives", (req, res, next) => {
   console.log("hereiam")

@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+
 body {
   font-family: "Roboto Condesed" sans-serif;
+  height: 100%;
  
 }
-
+footer {
+  text-align: center;
+}
 nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
 
+
 nav ul li {
   text-transform: uppercase;
+  color: #ee7752;
 }
 
 .header-wrapper {
@@ -22,8 +28,29 @@ nav ul li {
   background-position: center ;
   height: 90vh; */
   background-color: lightslategray;
-  background-size: cover;
+  background: size 0.16em;
 }
+.form-container {
+  width: 500px;
+  height: 100vh;
+  background-color:turquoise;
+  margin: auto;
+  padding: 10px;
+  z-index: 2;
+}
+.page-footer{
+  text-align: center;
+  background-color: orchid;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
 
 .main-info {
   display: flex;
@@ -35,29 +62,177 @@ nav ul li {
 }
 
 .main-info h1 {
-  color:greenyellow;
+  color:indigo;
   text-transform: uppercase;
 }
 
 textarea {
  
-    width: 80%;
+    width: 100%;
     height: 180px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background: #f2f2f2;
     resize: none;
   }
 
+  .success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+  }
+
   form {
-    text-align: center;
+    text-align-last: left;
+    height: 80vh;
   }
 
   input {
-    width: 30%;
+    width: 100%;
+    background: #f2f2f2;
   }
 
+  .theBar {
+    background-color:lightslategray;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  }
   
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
+  * {
+    font-family: Roboto;
+  }
+  
+  section {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .footer-distributed {
+    background-color: rgb(58, 47, 47);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .lawyerBody {
+    height: 90vh;
+  }
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+
+  .tsparticles-canvas-el {
+    position:absolute;
+    height:100vh;
+    width: 100vw;
+    z-index: 2;
+
+  } 
+
+  html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }

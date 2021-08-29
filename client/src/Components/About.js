@@ -1,5 +1,5 @@
 import React from "react";
-
+// import Particles from 'react-particles-js';
 import slidetwo from "../images/slidetwo.jpg";
 import slidetiga from "../images/slidetiga.jpg";
 import slidefour from "../images/slidefour.jpg";
@@ -11,6 +11,19 @@ import { Carousel } from 'react-bootstrap';
 const About = () => {
     return (
         <Carousel control={false} fade={true} pause={false}>
+           {/* <Particles>
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            },
+          }
+        }}
+         </Particles> */}
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
@@ -25,7 +38,7 @@ const About = () => {
               alt="Third slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={4000}>
             <img
               className="d-block w-100"
               src={slidefour}
