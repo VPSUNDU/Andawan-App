@@ -1,3 +1,6 @@
+
+/* -------------------------------------------------NativesForms------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 
@@ -21,27 +24,15 @@ nav ul li {
   color: #ee7752;
 }
 
-.header-wrapper {
-  /* position: relative;
-  background: url() no-repeat;
-  
-  background-position: center ;
-  height: 90vh; */
-  background-color: lightslategray;
-  background: size 0.16em;
-}
 .form-container {
   width: 500px;
-  height: 100vh;
+  height: 80vh;
   background-color:turquoise;
   margin: auto;
   padding: 10px;
   z-index: 2;
 }
-.page-footer{
-  text-align: center;
-  background-color: orchid;
-}
+
 
 .form-field {
   margin: 10px 0 10px 0;
@@ -49,21 +40,6 @@ nav ul li {
   font-size: 16px;
   border: 0;
   font-family: "Roboto", sans-serif;
-}
-
-
-.main-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.main-info h1 {
-  color:indigo;
-  text-transform: uppercase;
 }
 
 textarea {
@@ -95,6 +71,7 @@ textarea {
     background: #f2f2f2;
   }
 
+  /* -------------------------------------------------NaVBar------------------------------------------------------- */
   .theBar {
     background-color:lightslategray;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -117,6 +94,8 @@ textarea {
     text-decoration: underline;
   }
   
+  
+  /* -------------------------------------------------Footer------------------------------------------------------- */
   .footer-distributed {
     background-color: rgb(58, 47, 47);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -127,9 +106,7 @@ textarea {
     padding: 45px 50px;
   }
   
-  .lawyerBody {
-    height: 90vh;
-  }
+ 
   .footer-distributed .footer-left p {
     color: #8f9296;
     font-size: 14px;
@@ -206,13 +183,8 @@ textarea {
     }
   }
 
-  .tsparticles-canvas-el {
-    position:absolute;
-    height:100vh;
-    width: 100vw;
-    z-index: 2;
 
-  } 
+  /* -------------------------------------------------Pages Background CSS------------------------------------------------------- */
 
   html, body {
     width: 100%;
@@ -235,4 +207,16 @@ textarea {
       100% {
           background-position: 0% 50%;
       }
+  }
+
+  
+  /* -------------------------------------------------LawyerPage------------------------------------------------------- */
+
+  .lawyerBody {
+    height: 100vh;
+  }
+
+  .lawyerContainer {
+    background-color: antiquewhite;
+    color:yellowgreen;
   }

@@ -33,10 +33,10 @@ function NavBar() {
 									</a>
 								</li>
 							</Link>
-							<Link to="/About">
+							<Link to="/Home">
 								<li className="nav-item">
 									<a className="nav-link" href="#">
-										About
+										Home
 									</a>
 								</li>
 							</Link>

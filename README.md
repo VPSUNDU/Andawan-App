@@ -29,8 +29,8 @@ A platform for natives in Sabah to connect with lawyers/experts in their traditi
 
 Built with React.Js (Bootsrap,Router), Node/Express.Js, MySQL, Postman(Testing database)
 
-## Database Schema
-
+## Database 
+- databaseTable.jpg
 
 
 ## API Routes Plan
@@ -41,6 +41,7 @@ URI | HTTP Method | Description
 /api/natives | GET/ POST/DELETE | Get all forms/ Add a form /Delete a form
 
 ## User Flow Diagram
+-flowchart.jpg
 
 ## Architecture Drawing
 
