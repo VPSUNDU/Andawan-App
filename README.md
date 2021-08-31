@@ -14,7 +14,7 @@ A platform for natives in Sabah to connect with lawyers/experts in their traditi
 ## Features
 
 - Form for the natives to convey their questions
-- About pages - slide shows of images related to natives self-determination on their land journey
+- Home pages - slide shows of images related to natives self-determination on their land journey
 - Lawyers to view forms filled by Natives
 
 ## Feature Wish List

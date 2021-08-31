@@ -1,5 +1,5 @@
 
-/* -------------------------------------------------NativesForms------------------------------------------------------- */
+/* -------------------------------------------NativesForms---------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
@@ -27,10 +27,11 @@ nav ul li {
 .form-container {
   width: 500px;
   height: 100vh;
-  background-color:turquoise;
+  background-color: rgba(64, 224, 208, 0.719);
   margin: auto;
   padding: 10px;
-  z-index: 2;
+  border-radius: 20px;
+
 }
 
 
@@ -71,9 +72,9 @@ textarea {
     background: #f2f2f2;
   }
 
-  /* -------------------------------------------------NaVBar------------------------------------------------------- */
+  /* --------------------------------------------NaVBar---------------------------------------- */
   .theBar {
-    background-color:lightslategray;
+    background-color:dimgrey;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   }
   
@@ -97,8 +98,7 @@ textarea {
   
   /* -------------------------------------------------Footer------------------------------------------------------- */
   .footer-distributed {
-    background-color: rgb(58, 47, 47);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background-color:dimgray;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -216,8 +216,12 @@ textarea {
     height: 100vh;
   }
 
-  .lawyerContainer {
-    background-color: antiquewhite;
-    color:yellowgreen;
-    width: ;
+  .lawyerContainer { 
+  width: 320px;
+  padding: 30px;
+ 
+  margin: auto;
+  background-color:rgba(64, 224, 208, 0.719);
+
+  border-radius: 20px;
   }

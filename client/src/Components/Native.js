@@ -71,7 +71,9 @@ function Native() {
 
 
   return (
+    
     <div className="form-container">
+     
       <h1>Native View</h1>
       <form onSubmit={e => handleSubmit(e)}>
         {submitted ? <div class="success-message">Your form is successfully submitted. You'll be contacted within 7 days</div> : null}

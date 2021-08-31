@@ -13,7 +13,7 @@ function NavBar() {
 				collapseOnSelect
 			>
 				<Navbar.Brand>
-					<img src={logo} width="70px" height="60px" />{" "}
+					<img src={logo} width="70px" height="60px" alt="logo" />{" "}
 				</Navbar.Brand>
 				<Navbar.Toggle className="coloring" />
 				<Navbar.Collapse>
